@@ -15,7 +15,7 @@ class Queue {
     return this.queue.shift();
   }
 
-  peak() {
+  peek() {
     return this.queue[0];
   }
 
